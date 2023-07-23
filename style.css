@@ -1,0 +1,129 @@
+body{
+    border-radius: 200px;
+    background: #292828;
+    box-shadow: 15px 15px 30px rgb(98, 98, 98),
+                -15px -15px 30px rgb(98, 98, 98);
+    background-attachment: fixed;
+}
+h1{
+    background-color: rgb(66, 70, 70);
+    border-radius: 30px;
+    margin: 18px 30% 10px 30%;
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: aqua;
+}
+h3{
+    background-color: rgb(66, 70, 70);
+    border-radius: 50px;
+    margin: 10px 20% 30px 20%;
+    font-size: 25px;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: aqua;
+}
+#container1{
+    border: 2px solid #ffffff;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+.row1, .row2, .row3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    border: 2px solid #ffffff;
+    padding: 11px;
+}
+.row1, .row2{
+    background: url(https://media.istockphoto.com/id/1218355494/vector/poker-table-background-in-green-color.jpg?s=612x612&w=0&k=20&c=qJ-IauRqbIhaeQ5CXZxwysghJUm1VE5wW0odCiFt4yg=) center;
+    color: #ffffff;
+}
+#yourBox, #dealerBox{
+    border: 2px solid #ffffff;
+    text-align: center;
+    padding: 10px;
+    flex: 1;
+    height: 350px;
+}
+.row1 img{
+    width: 25%;
+    padding: 10px;
+}
+
+.btn, #button{
+    border: 2px solid #ffffff;
+    padding: 10px;
+    margin-left: 10px;
+}
+/*Hit Button Transformation*/
+#hit{
+    font-size: 17px;
+    padding: 0.5em 2em;
+    border: transparent;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+    background: dodgerblue;
+    color: #000000;
+    border-radius: 4px;
+}
+#hit:hover {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(30,144,255,1) 0%, rgba(0,212,255,1) 100%);
+    text-decoration: underline;
+    font-style: italic;
+   }
+#hit:active {
+    transform: translate(0em, 0.2em);
+   }
+/*Hold Button Transformation*/
+   #hold{
+    font-size: 17px;
+    padding: 0.5em 2em;
+    border: transparent;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+    background: rgb(255, 255, 30);
+    color: #000000;
+    border-radius: 4px;
+}
+#hold:hover {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgb(255, 255, 30) 0%, rgb(253, 168, 30) 100%);
+    text-decoration: underline;
+    font-style: italic;
+   }
+#hold:active {
+    transform: translate(0em, 0.2em);
+   }
+/*Deal Button Transformation*/
+   #deal{
+    font-size: 17px;
+    padding: 0.5em 2em;
+    border: transparent;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+    background: rgb(90, 255, 30);
+    color: #000000;
+    border-radius: 4px;
+}
+#deal:hover {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgb(30, 255, 101) 0%, rgb(0, 255, 179) 100%);
+    text-decoration: underline;
+    font-style: italic;
+   }
+#deal:active {
+    transform: translate(0em, 0.2em);
+   }
+
+
+table, th, td{
+    outline:2px solid #ffffff;
+    margin-top: 1px;
+    margin-left: 1px;
+    padding: 5px;
+    font-size: 20px;
+    color: #ffffff;
+}
